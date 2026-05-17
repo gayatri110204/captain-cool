@@ -2,7 +2,7 @@
 
 > A pure vanilla, zero-dependency AI orchestrator built on the **Google Gemini tech stack** for the Agentic Hackathon.
 
-![Captain Cool AI](/Users/gayuu/.gemini/antigravity/brain/b2029749-edbe-4ed1-90bf-0e47d5814a65/captain_cool_cover_1779014557108.png)
+![Captain Cool AI](./captain_cool_cover.png)
 
 ## Overview
 Cricket is a captain's game. To win an IPL match, you need to read the pitch, analyze the stats, anticipate the opponent, and make a gut call. "Captain Cool" is an AI-powered IPL Match Strategist that orchestrates **four distinct AI agents** in a real-time debate loop to make the ultimate tactical decision.
