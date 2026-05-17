@@ -1,0 +1,32 @@
+{
+  "adk_version": "1.0.4",
+  "project": "captain_cool_strategist",
+  "orchestration_mode": "sequential_debate",
+  "agents": [
+    {
+      "id": "analyst",
+      "model": "gemini-2.5-flash",
+      "tools": ["getVenueContext"],
+      "timeout_ms": 5000
+    },
+    {
+      "id": "strategist",
+      "model": "gemini-2.5-flash",
+      "depends_on": ["analyst"]
+    },
+    {
+      "id": "devils_advocate",
+      "model": "gemini-2.5-flash",
+      "depends_on": ["strategist"]
+    },
+    {
+      "id": "captain",
+      "model": "gemini-2.5-flash",
+      "depends_on": ["strategist", "devils_advocate"]
+    }
+  ],
+  "rate_limit_policy": {
+    "inter_node_delay_ms": 1500,
+    "max_retries": 3
+  }
+}
