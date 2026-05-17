@@ -2,9 +2,6 @@
 
 > A pure vanilla, zero-dependency AI orchestrator built on the **Google Gemini tech stack** for the Agentic Hackathon.
 
-### **[🌐 Click Here to Run the Live Site!](https://gayuu.github.io/captain-cool/)**
-*(Make sure to enable GitHub Pages in your repo settings for this link to work!)*
-
 ![Captain Cool AI](./captain_cool_cover.png)
 
 ## Overview
