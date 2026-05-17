@@ -1,3 +1,4 @@
+![Uploading captain_cool_cover.png…]()
 # 🏏 Captain Cool — The Multi-Agent IPL Match Strategist
 
 > A pure vanilla, zero-dependency AI orchestrator built on the **Google Gemini tech stack** for the Agentic Hackathon.
